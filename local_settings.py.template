@@ -1,0 +1,8 @@
+from sheetsync import ia_credentials_helper
+
+# Create OAuth2 credentials, or reload them from a local cache file.
+
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+creds = ia_credentials_helper(CLIENT_ID, CLIENT_SECRET,
+                              credentials_cache_file='cred_cache.json')
